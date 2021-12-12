@@ -75,7 +75,7 @@ void typeMacro(int button){
             break;
 
         case 8:
-            Keyboard.print("          Merry Christmas!");
+            Keyboard.print("               Merry Christmas!");
             
             Keyboard.write(KEY_ENTER);
             Keyboard.write(KEY_ENTER);
@@ -84,11 +84,14 @@ void typeMacro(int button){
             
             Keyboard.write(KEY_ENTER);
 
-            Keyboard.print("   3D files and code avaible online.");
+            Keyboard.print("         3D files and code avaible online.");
 
             Keyboard.write(KEY_ENTER);
 
-            Keyboard.print("Thank you");
+            Keyboard.print("        https://github.com/Air0nH/ButtonBox");
+
+            Keyboard.write(KEY_ENTER);
+
             delay(200);
             break;
 
